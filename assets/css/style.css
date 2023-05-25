@@ -1,9 +1,25 @@
 /* IMPOSTAZIONI GENERALI */
-
+body {
+    background-image: url(../img/sfondo.png);
+background-position: center top;
+background-repeat: repeat;}
 /* HEADER */
-
+.container {
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(53, 160, 160);
+    margin: 5px ;
+    background-image: linear-gradient rgb(70, 187, 187)
+}
+.container-top {
+    text-align: center;
+}
 /* MAIN */
-
+main {
+    margin: 5px 35px;
+}
 /* ELEMENTI NEL MAIN - ARTICLE */
 
 /* TABELLE */
